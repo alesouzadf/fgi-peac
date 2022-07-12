@@ -31,17 +31,10 @@
       "googleServicesFile": "./google-services.json"
     },
     "plugins": [
-      ["expo-build-properties", {"ios": {"useFrameworks": "dynamic"}}],
-      {
-        "android": {
-          "compileSdkVersion": 31,
-          "targetSdkVersion": 31,
-          "buildToolsVersion": "31.0.0"
-        },
-        "ios": {
-          "deploymentTarget": "13.0"
-        }
-      }      
+      "expo-build-properties", 
+      "@react-native-firebase/app",
+      "@react-native-firebase/perf",
+      "@react-native-firebase/crashlytics"
     ],
     "web": {
       "favicon": "./assets/favicon.png"
