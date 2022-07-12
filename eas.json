@@ -18,7 +18,8 @@
       "development": {
         "workflow": "generic",
         "distribution": "internal",
-        "schemeBuildConfiguration": "Debug"
+        "schemeBuildConfiguration": "Debug",
+        "developmentClient": true
       }
     }
   }

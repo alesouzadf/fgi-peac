@@ -20,7 +20,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.honrafgipeac.honrafgipeac",
-      "googleServicesFile": "./GoogleService-Info.plist"      
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,12 +28,20 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.honrafgipeac",
-      "googleServicesFile": "./google-services.json"      
+      "googleServicesFile": "./google-services.json"
     },
     "plugins": [
-      "@react-native-firebase/app",
-      "@react-native-firebase/perf",
-      "@react-native-firebase/crashlytics"
+      ["expo-build-properties", {"ios": {"useFrameworks": "dynamic"}}],
+      {
+        "android": {
+          "compileSdkVersion": 31,
+          "targetSdkVersion": 31,
+          "buildToolsVersion": "31.0.0"
+        },
+        "ios": {
+          "deploymentTarget": "13.0"
+        }
+      }      
     ],
     "web": {
       "favicon": "./assets/favicon.png"

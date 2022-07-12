@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "573020256731",
+    "project_id": "honra-fgi-peac",
+    "storage_bucket": "honra-fgi-peac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573020256731:android:64eff85487d20b0da44ffe",
+        "android_client_info": {
+          "package_name": "com.home.png"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573020256731-n3m60prpr613f19akce6c08k6bk2ed2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo5bT_HJUQeDBqJB1no68BtJL1e5JBdho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573020256731-n3m60prpr613f19akce6c08k6bk2ed2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
