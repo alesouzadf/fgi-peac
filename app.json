@@ -19,15 +19,22 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.honrafgipeac.honrafgipeac"
+      "bundleIdentifier": "com.honrafgipeac.honrafgipeac",
+      "googleServicesFile": "./GoogleService-Info.plist"      
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.honrafgipeac"
+      "package": "com.honrafgipeac",
+      "googleServicesFile": "./google-services.json"      
     },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/perf",
+      "@react-native-firebase/crashlytics"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     }
